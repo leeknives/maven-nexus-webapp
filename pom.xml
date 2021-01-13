@@ -20,18 +20,12 @@
   </build>
   <repositories>
         <repository>
-          <id>RaviGroupRepo</id>
-          <url>http://35.184.60.117:8081/nexus/content/groups/RaviGroupRepo/</url>
+          <id>releases</id>
+          <url>http://10.167.68.4:8081/repository/maven-releases/</url>
+        </repository>
+        <repository>
+          <id>snapshots</id>
+          <url>http://10.167.68.4:8081/repository/maven-snapshots/</url>
         </repository>
    </repositories>
-   <distributionManagement>
-        <snapshotRepository>
-            <id>RaviSnapRepo</id>
-            <url>http://35.184.60.117:8081/nexus/content/repositories/RaviSnapRepo/</url>
-        </snapshotRepository>
-        <repository>
-            <id>RaviReleaseRepo</id>
-            <url>http://35.184.60.117:8081/nexus/content/repositories/RaviReleaseRepo/</url>
-        </repository>
-    </distributionManagement>
 </project>
